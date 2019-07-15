@@ -75,7 +75,7 @@ h2{
 }
 
 .project-img{
-    height: 80%;
+    height: 75%;
     width: 85%;
  } 
 
@@ -141,12 +141,14 @@ h3{
 #contactPage {
     background: #ececec;
     margin-top: 5%;
-    padding-top: 6%;
+    padding-top: 5%;
+    padding-bottom: 3%;
 }
 
 #contactPage ol{
     display: inline-flex;
-    margin: 8%;
+    margin: 5%;
+  
 }
 #contactPage img{
     width: 65%;
@@ -170,7 +172,6 @@ button{
     padding: 12px;
 }
 
-footer p{
+section p{
     font-size: 14px;
-    color: #9b96ae91;
 }
