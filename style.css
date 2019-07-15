@@ -17,8 +17,7 @@ a {
 
 /* image ******************************************/
 .logo-img{
-    width: 10%;
-    height: 10%;
+    width: 8%;
     float: left;
     margin-left: 5%;
 }
@@ -31,7 +30,7 @@ nav{
 }
 
 nav ol{
-    margin-top: 8%;
+    margin-top: 6%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -41,6 +40,7 @@ nav ol{
     font-size: 20px;
     text-decoration: none;
     color: #271C50;
+    
     font-weight: lighter;
 }
 
@@ -70,19 +70,22 @@ h2{
 /* workPage ******************************************/
 
 #workPage{
-    margin-top: 4%;
+    margin-top: 20%;
+    padding-top: 5%;
 }
 
 .project-img{
-    /* height: auto; */
-    width: 35%;
+    height: 80%;
+    width: 85%;
+ } 
+
+div {
+    width: 50%;
 }
 
 /* project ******************************************/
 .project-wrapper{
     margin-top: 5%;
-   
-   
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -95,7 +98,6 @@ h2{
     font-size: 20px;
     margin-top: 5px;
     font-weight: lighter;
-    
 }
 
 
@@ -116,6 +118,9 @@ h3{
     margin-top: 5%;
 }
 
+.gif{
+    width: 55%;
+}
 
 .project{
     width: 80%;
@@ -133,8 +138,10 @@ h3{
 }
 
 /* contact ******************************************/
-#contactPage{
+#contactPage {
+    background: #ececec;
     margin-top: 5%;
+    padding-top: 6%;
 }
 
 #contactPage ol{

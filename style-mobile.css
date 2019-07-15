@@ -59,7 +59,9 @@ button {
     flex-direction: column;
 }
 
-
+div{
+    width: 90%;
+}
 #workPage p {
     font-size: 16px;
     margin-top: 5px;
