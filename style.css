@@ -33,6 +33,7 @@ a {
 nav{
     padding: 2%;
     /* width: 100%; */
+    background-color: #cee9e5;
     overflow: hidden;    
 }
 
@@ -43,14 +44,21 @@ nav ol{
     justify-content: space-evenly;
 }
 
+#nav ol li {
+    transition: .3s ease-in-out;
+}
+#nav ol li:hover{
+    transform: scale(1.3);
+    border-bottom: 2px #261b50 solid;
+}
+
 #nav ol li a {
     font-size: 20px;
     text-decoration: none;
     color: #271C50;
-    
     font-weight: lighter;
+    
 }
-
 
 
 
@@ -173,10 +181,10 @@ h3{
 
 /* contact ******************************************/
 #contactPage {
-    background: #ececec;
+    background: #cee9e5;
     margin-top: 5%;
-    padding-top: 5%;
-    padding-bottom: 3%;
+    padding-top: 2%;
+    padding-bottom: 1%;
 }
 
 #contactPage ol{
@@ -216,6 +224,6 @@ button:hover{
     transform: scale(1.2);
     border-radius: 0px;
 }
-section p{
+.copyright p{
     font-size: 14px;
 }

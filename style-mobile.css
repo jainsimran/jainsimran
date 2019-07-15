@@ -40,6 +40,9 @@ nav a{
     font-size: 13px;
 }
 
+#wrapper {
+    display: inline;
+}
 button {
     background: #bfd7d7;
     font-size: 16px;
@@ -54,6 +57,9 @@ button {
     width: 90%;
 }
 
+#my-pic {
+    width: 45%;
+}
 .project-wrapper{
     display: flex;
     flex-direction: column;
@@ -101,6 +107,8 @@ div{
     border: 2px solid #271c50;
     border-radius: 30px;
 }
-
+.copyright p {
+    font-size: 10px;
+}
 
 }
