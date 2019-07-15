@@ -22,6 +22,13 @@ a {
     margin-left: 5%;
 }
 
+#my-pic{
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 6%;
+
+}
+
 /* Navigation ******************************************/
 nav{
     padding: 2%;
@@ -52,6 +59,27 @@ nav ol{
 #landing{
     margin: 15%;
 }
+
+#landing h1{
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: 3px solid #261b50;; /* The typwriter cursor */
+        white-space: nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        letter-spacing: 1.15px; /* Adjust as needed */
+        animation: 
+          typing 4s steps(40, end),
+          blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #261b50;; }
+  }
 h1{
     font-size: 40px;
 }
@@ -75,9 +103,15 @@ h2{
 }
 
 .project-img{
-    height: 75%;
-    width: 85%;
- } 
+    height: 70%;
+    width: 75%;
+    transition: .3s ease-in-out;
+  }
+ 
+  .project-img:hover{
+    transform: scale(1.2);
+  }
+
 
 div {
     width: 50%;
@@ -147,7 +181,7 @@ h3{
 
 #contactPage ol{
     display: inline-flex;
-    margin: 5%;
+    margin: 2%;
   
 }
 #contactPage img{
@@ -161,8 +195,14 @@ h3{
 }
 
 #aboutPage p{
-    margin: 5%;
+    margin-top: 10%;
+    word-spacing: 5px;
     font-size: 18px;
+}
+
+#wrapper{
+    display: flex;
+    width: 100%;
 }
 
 button{
@@ -172,6 +212,10 @@ button{
     padding: 12px;
 }
 
+button:hover{
+    transform: scale(1.2);
+    border-radius: 0px;
+}
 section p{
     font-size: 14px;
 }
