@@ -1,14 +1,14 @@
 @media screen and (max-width: 768px) {
     
 h1{
-    font-size: 25px;
+    font-size: 22px;
     margin: 15%;
 }
    
 nav ol {
     display: block;
     float: right;
-    margin: 6%;
+    margin: 2%;
 }
 
 #nav ol li a {
@@ -26,7 +26,7 @@ nav a{
     width: 10%;
     height: 10%;
     float: left;
-    margin: 7%;
+    margin: 2% 5%;
 }
 
 /*  about page */
@@ -69,34 +69,27 @@ div{
     width: 100%;
 }
 #workPage p {
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 5px;
     font-weight: normal;
 }
 
-
-
-
-/* contact page */
-
-/* #contactPage ol{
-    display: flex;
-    flex-direction: column;
+#contactPage {
+    background: #cee9e5;
+    margin-top: 10%;
+    padding-top: 2%;
+    /* width: 100%; */
+    padding-bottom: 1%;
 }
-
-#contactPage img{
-    width: 8%;
-    height: 8%;
-} */
 
 #contactPage ol {
     display: inline-flex;
-    margin: 5%;
+    margin: 2%;
 }
 
 #contactPage h1{
-    font-size: 25px;
-    margin: 5%;
+    font-size: 22px;
+    margin: 2%;
 }
 /* footer  */
 #up-key {
