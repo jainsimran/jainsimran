@@ -5,6 +5,10 @@ h1{
     margin: 15%;
 }
    
+h3{
+    font-size: 9vw;
+    padding: 12px;
+}
 nav ol {
     display: block;
     float: right;
@@ -55,6 +59,11 @@ button {
 
 .project-img{
     width: 90%;
+}
+
+#project p {
+    font-size: 5vw;
+    font-weight: lighter;
 }
 
 #my-pic {
