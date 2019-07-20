@@ -1,12 +1,12 @@
 /* basic ******************************************/
-body{
+
+body {
     text-align: center;
     font-family: sans-serif;
     color: #271C50;
 }
 
-
-p{
+p {
     margin: 5%;
 }
 
@@ -16,27 +16,30 @@ a {
 
 
 /* image ******************************************/
-.logo-img{
+
+.logo-img {
     width: 7%;
     float: left;
     margin-left: 5%;
 }
 
-#my-pic{
+#my-pic {
     width: 30%;
     margin-top: 5%;
     margin-left: 9%;
 }
 
+
 /* Navigation ******************************************/
-nav{
+
+nav {
     padding: 1%;
     /* width: 100%; */
     background-color: #cee9e5;
-    overflow: hidden;    
+    overflow: hidden;
 }
 
-nav ol{
+nav ol {
     margin-top: 5%;
     display: flex;
     flex-direction: row;
@@ -46,7 +49,8 @@ nav ol{
 #nav ol li {
     transition: .3s ease-in-out;
 }
-#nav ol li:hover{
+
+#nav ol li:hover {
     transform: scale(1.3);
     border-bottom: 2px #261b50 solid;
 }
@@ -56,46 +60,65 @@ nav ol{
     text-decoration: none;
     color: #271C50;
     font-weight: lighter;
-    
 }
-
-
 
 
 /* Landing ******************************************/
-#landing{
-    margin: 15%;
+
+#landing {
+    margin: 20%;
 }
 
-#landing h1{
-        overflow: hidden; /* Ensures the content is not revealed until the animation */
-        border-right: 3px solid #261b50;; /* The typwriter cursor */
-        white-space: nowrap; /* Keeps the content on a single line */
-        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-        letter-spacing: 1.15px; /* Adjust as needed */
-        animation: 
-          typing 4s steps(40, end),
-          blink-caret .75s step-end infinite;
+#landing h3 {
+    font-size: 22px;
+    padding: 25px;
+    font-weight: lighter;
+}
+
+#landing h1 {
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: 3px solid #261b50;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 1.15px;
+    /* Adjust as needed */
+    animation: typing 4s steps(40, end), blink-caret .75s step-end infinite;
 }
 
 @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
 
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: #261b50;; }
-  }
-h1{
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: #261b50;
+        ;
+    }
+}
+
+h1 {
     font-size: 40px;
 }
-h2{
+
+h2 {
     margin: 2%;
     font-size: 20px;
 }
 
-.logo{
+.logo {
     width: 50%;
     margin-top: 5%;
     margin-bottom: 2%;
@@ -104,36 +127,40 @@ h2{
 
 /* workPage ******************************************/
 
-#workPage{
+#workPage {
     margin-top: 20%;
     padding-top: 5%;
 }
 
-.project-img{
-    height: 70%;
-    width: 75%;
-    transition: .3s ease-in-out;
-  }
- 
-  .project-img:hover{
-    transform: scale(1.2);
-  }
+#workPage h1 {
+    font-size: 40px;
+    border-bottom: 2px solid #271c50;
+    padding: 12px;
+}
 
+.project-img {
+    height: 300px;
+    width: 450px;
+    transition: .3s ease-in-out;
+}
+
+.project-img:hover {
+    transform: scale(1.2);
+}
 
 div {
     width: 50%;
 }
 
+
 /* project ******************************************/
-.project-wrapper{
+
+.project-wrapper {
     margin-top: 5%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    
 }
-
-
 
 #workPage p {
     font-size: 20px;
@@ -143,7 +170,8 @@ div {
 
 
 /* project page ******************************************/
-h3{
+
+h3 {
     font-size: 34px;
     /* text-decoration: underline; */
     font-weight: normal;
@@ -151,26 +179,26 @@ h3{
     border-bottom: 2px solid #271c50;
 }
 
-#project p{
+#project p {
     font-size: 20px;
     font-weight: lighter;
 }
 
-#project{
+#project {
     margin-top: 5%;
 }
 
-.gif{
+.gif {
     width: 55%;
 }
 
-.project{
+.project {
     width: 80%;
     border: 1px solid #271c50;
     height: 40%;
 }
 
-#up-key{
+#up-key {
     float: right;
     width: 1.5%;
     padding: 1%;
@@ -179,7 +207,9 @@ h3{
     border-radius: 20px;
 }
 
+
 /* contact ******************************************/
+
 #contactPage {
     background: #cee9e5;
     margin-top: 5%;
@@ -187,53 +217,50 @@ h3{
     padding-bottom: 1%;
 }
 
-#contactPage h1{
+#contactPage h1 {
     font-size: 25px;
 }
 
-#contactPage ol{
+#contactPage ol {
     display: inline-flex;
     margin: 2%;
-  
 }
-#contactPage img{
+
+#contactPage img {
     width: 50%;
     height: 90%;
 }
 
-
-#aboutPage{
+#aboutPage {
     margin-top: 5%;
 }
 
-#aboutPage p{
+#aboutPage p {
     margin-top: 10%;
     word-spacing: 5px;
     font-size: 18px;
+    text-align: justify;
 }
 
-#wrapper{
+#wrapper {
     display: flex;
     width: 100%;
 }
 
-button{
+button {
     background: #bfd7d7;
     font-size: 16px;
     border-radius: 20px;
     padding: 12px;
 }
 
-button:hover{
+button:hover {
     transform: scale(1.2);
     border-radius: 0px;
 }
-.copyright p{
-    font-size: 14px;
-}
+
 .copyright p {
+    font-size: 14px;
     margin: 3%;
+    font-weight: lighter;
 }
-
-
-
