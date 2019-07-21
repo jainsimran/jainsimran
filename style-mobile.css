@@ -4,7 +4,7 @@
         margin: 15%;
     }
     h3 {
-        font-size: 9vw;
+        font-size: 8vw;
         padding: 12px;
     }
     nav ol {
@@ -30,12 +30,22 @@
     #landing h3 {
         font-size: 4vw;
     }
+    #workPage {
+        padding-top: 30%;
+    }
     /*  about page */
     #aboutPage {
         margin: 5%;
     }
     #aboutPage p {
         font-size: 13px;
+        word-spacing: 1px;
+        text-align: justify;
+        margin: 0;
+    }
+    #my-pic {
+        width: 50%;
+        margin: 0;
     }
     #wrapper {
         display: inline;
@@ -48,11 +58,12 @@
         margin: 10%;
     }
     /* project page */
-    .project-img {
+    .project {
         width: 95%;
+        height: 40%;
     }
     #project p {
-        font-size: 5vw;
+        font-size: 4vw;
         font-weight: lighter;
     }
     #my-pic {
