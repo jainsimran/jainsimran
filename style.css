@@ -18,13 +18,13 @@ a {
 /* image ******************************************/
 
 .logo-img {
-    width: 7%;
+    width: 5%;
     float: left;
     margin-left: 5%;
 }
 
 #my-pic {
-    width: 30%;
+    width: 25%;
     margin-top: 5%;
     margin-left: 9%;
 }
@@ -33,16 +33,17 @@ a {
 /* Navigation ******************************************/
 
 nav {
-    padding: 1%;
+    padding: 10px;
     width: 100%;
     background-color: #cee9e5;
     overflow: hidden;
     position: fixed;
     top: 0;
+    z-index: 1;
 }
 
 nav ol {
-    margin-top: 5%;
+    margin-top: 2%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -58,7 +59,7 @@ nav ol {
 }
 
 #nav ol li a {
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
     color: #271C50;
     font-weight: lighter;
@@ -79,15 +80,10 @@ nav ol {
 
 #landing h1 {
     overflow: hidden;
-    /* Ensures the content is not revealed until the animation */
     border-right: 3px solid #261b50;
-    /* The typwriter cursor */
     white-space: nowrap;
-    /* Keeps the content on a single line */
     margin: 0 auto;
-    /* Gives that scrolling effect as the typing happens */
     letter-spacing: 1.15px;
-    /* Adjust as needed */
     animation: typing 4s steps(40, end), blink-caret .75s step-end infinite;
 }
 
@@ -96,7 +92,7 @@ nav ol {
         width: 0
     }
     to {
-        width: 100%
+        width: 90%
     }
 }
 
@@ -131,12 +127,11 @@ h2 {
 
 #workPage {
     margin-top: 20%;
-    padding-top: 5%;
+    padding-top: 10%;
 }
 
 #workPage h1 {
     font-size: 40px;
-    border-bottom: 2px solid #271c50;
     padding: 12px;
 }
 
@@ -188,7 +183,7 @@ h3 {
 }
 
 #project {
-    margin-top: 5%;
+    margin-top: 12%;
 }
 
 .gif {
@@ -225,22 +220,22 @@ h3 {
 
 #contactPage ol {
     display: inline-flex;
-    margin: 2%;
+    margin: 1%;
 }
 
 #contactPage img {
-    width: 50%;
-    height: 90%;
+    width: 45%;
+    height: 85%;
 }
 
 #aboutPage {
-    margin-top: 5%;
+    margin-top: 15%;
 }
 
 #aboutPage p {
-    margin-top: 10%;
+    margin-top: 8%;
     word-spacing: 5px;
-    font-size: 18px;
+    font-size: 17px;
     text-align: justify;
     font-weight: lighter;
 }
@@ -255,6 +250,7 @@ button {
     font-size: 16px;
     border-radius: 20px;
     padding: 12px;
+    margin-bottom: 5%;
 }
 
 button a {

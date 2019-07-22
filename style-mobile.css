@@ -9,7 +9,6 @@
     }
     nav ol {
         display: block;
-        float: right;
         margin: 2%;
     }
     #nav ol li a {
@@ -26,6 +25,9 @@
         height: 10%;
         float: left;
         margin: 2% 5%;
+    }
+    #landing {
+        margin-top: 50%;
     }
     #landing h3 {
         font-size: 4vw;
