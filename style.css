@@ -6,10 +6,6 @@ body {
     color: #271C50;
 }
 
-p {
-    margin: 5%;
-}
-
 a {
     text-decoration: none;
 }
@@ -24,9 +20,9 @@ a {
 }
 
 #my-pic {
+    padding-top: 8%;
     width: 25%;
-    margin-top: 5%;
-    margin-left: 9%;
+    margin-bottom: 2%;
 }
 
 
@@ -69,12 +65,12 @@ nav ol {
 /* Landing ******************************************/
 
 #landing {
-    margin: 20%;
+    margin: 2%;
 }
 
 #landing h3 {
     font-size: 22px;
-    padding: 25px;
+    padding: 1%;
     font-weight: lighter;
 }
 
@@ -126,8 +122,7 @@ h2 {
 /* workPage ******************************************/
 
 #workPage {
-    margin-top: 20%;
-    padding-top: 10%;
+    padding-top: 8%;
 }
 
 #workPage h1 {
@@ -136,8 +131,8 @@ h2 {
 }
 
 .project-img {
-    height: 300px;
-    width: 450px;
+    height: 75%;
+    width: 90%;
     transition: .3s ease-in-out;
 }
 
@@ -180,10 +175,11 @@ h3 {
     font-size: 20px;
     font-weight: lighter;
     font-family: 'Oxygen', sans-serif;
+    margin: 4%;
 }
 
 #project {
-    margin-top: 12%;
+    padding-top: 10%;
 }
 
 .gif {
@@ -197,8 +193,9 @@ h3 {
 
 #up-key {
     float: right;
-    width: 1.5%;
-    padding: 1%;
+    width: 1%;
+    padding: 0.5%;
+    margin-bottom: 1%;
     margin-right: 3%;
     border: 2px solid #271c50;
     border-radius: 20px;
@@ -232,17 +229,12 @@ h3 {
     margin-top: 15%;
 }
 
-#aboutPage p {
-    margin-top: 8%;
+#landing p {
+    padding-top: 1%;
     word-spacing: 5px;
     font-size: 17px;
     text-align: justify;
     font-weight: lighter;
-}
-
-#wrapper {
-    display: flex;
-    width: 100%;
 }
 
 button {
