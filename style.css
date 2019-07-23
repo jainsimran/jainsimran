@@ -88,7 +88,7 @@ nav ol {
         width: 0
     }
     to {
-        width: 90%
+        width: 80%
     }
 }
 
@@ -235,6 +235,7 @@ h3 {
     font-size: 17px;
     text-align: justify;
     font-weight: lighter;
+    text-align: initial;
 }
 
 button {

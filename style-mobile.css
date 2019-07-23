@@ -1,8 +1,4 @@
 @media screen and (max-width: 768px) {
-    h1 {
-        font-size: 22px;
-        margin: 15%;
-    }
     h3 {
         font-size: 8vw;
         padding: 12px;
@@ -27,17 +23,21 @@
         margin: 2% 5%;
     }
     #landing {
-        margin-top: 50%;
+        padding-top: 20%;
     }
     #landing h3 {
         font-size: 4vw;
+        padding: 4%;
+    }
+    #landing p {
+        margin-top: 4%;
     }
     #workPage {
         padding-top: 30%;
     }
     /*  about page */
     #aboutPage {
-        margin: 5%;
+        padding-top: 15%;
     }
     #aboutPage p {
         font-size: 13px;
@@ -47,7 +47,7 @@
     }
     #my-pic {
         width: 50%;
-        margin: 0;
+        margin-bottom: 2%;
     }
     #wrapper {
         display: inline;
@@ -63,6 +63,9 @@
     .project {
         width: 95%;
         height: 40%;
+    }
+    #project {
+        padding-top: 25%;
     }
     #project p {
         font-size: 4vw;
@@ -106,6 +109,7 @@
         margin-right: 3%;
         border: 2px solid #271c50;
         border-radius: 30px;
+        margin: 1%;
     }
     .copyright p {
         font-size: 10px;
