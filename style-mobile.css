@@ -1,6 +1,6 @@
 @media screen and (max-width: 768px) {
     h3 {
-        font-size: 8vw;
+        font-size: 25px;
         padding: 12px;
     }
     nav ol {
@@ -17,16 +17,23 @@
         font-size: 15px;
     }
     .logo-img {
-        width: 10%;
+        width: 12%;
         height: 10%;
         float: left;
         margin: 2% 5%;
     }
     #landing {
-        padding-top: 20%;
+        padding-top: 35%;
+        margin: 5%;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    #landing h1 {
+        font-size: 28px;
     }
     #landing h3 {
-        font-size: 4vw;
+        ont-size: 18px;
         padding: 4%;
     }
     #landing p {
@@ -52,6 +59,14 @@
     #wrapper {
         display: inline;
     }
+    #wrapper p {
+        padding: 5%;
+        font-size: 18px;
+        font-weight: lighter;
+    }
+    #my-pic {
+        margin: 5% 0;
+    }
     button {
         background: #bfd7d7;
         font-size: 16px;
@@ -68,15 +83,11 @@
         padding-top: 25%;
     }
     #project p {
-        font-size: 4vw;
+        font-size: 18px;
         font-weight: lighter;
     }
     #my-pic {
         width: 45%;
-    }
-    .project-wrapper {
-        display: flex;
-        flex-direction: column;
     }
     div {
         width: 100%;

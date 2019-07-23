@@ -20,9 +20,10 @@ a {
 }
 
 #my-pic {
-    padding-top: 8%;
-    width: 25%;
+    width: 20%;
     margin-bottom: 2%;
+    margin-top: 5%;
+    margin-left: 9%;
 }
 
 
@@ -65,7 +66,8 @@ nav ol {
 /* Landing ******************************************/
 
 #landing {
-    margin: 2%;
+    margin: 0 20% 20% 20%;
+    padding-top: 20%;
 }
 
 #landing h3 {
@@ -76,6 +78,7 @@ nav ol {
 
 #landing h1 {
     overflow: hidden;
+    font-size: 35px;
     border-right: 3px solid #261b50;
     white-space: nowrap;
     margin: 0 auto;
@@ -120,6 +123,15 @@ h2 {
 
 
 /* workPage ******************************************/
+
+#wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#aboutPage p {
+    margin: 7%;
+}
 
 #workPage {
     padding-top: 8%;
@@ -226,7 +238,7 @@ h3 {
 }
 
 #aboutPage {
-    margin-top: 15%;
+    padding-top: 14%;
 }
 
 #landing p {
