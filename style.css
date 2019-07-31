@@ -3,36 +3,47 @@
 body {
     text-align: center;
     font-family: sans-serif;
-    color: #271C50;
+    color: #43444a;
 }
 
 a {
     text-decoration: none;
 }
 
+h1{
+    font-family: 'Abril Fatface', cursive;
+}
+
+p{
+    font-family: 'Teko', sans-serif;
+}
 
 /* image ******************************************/
 
 .logo-img {
-    width: 5%;
+    width: 4%;
     float: left;
     margin-left: 5%;
 }
 
 #my-pic {
-    width: 20%;
+    width: 100%;
     margin-bottom: 2%;
-    margin-top: 5%;
-    margin-left: 9%;
+    filter: grayscale(90%);
+}
+
+#my-pic:hover{
+    filter: grayscale(0%);
 }
 
 
 /* Navigation ******************************************/
 
 nav {
-    padding: 10px;
+    padding: 0.5%;
+    font-family: 'Teko', sans-serif;
     width: 100%;
-    background-color: #cee9e5;
+    background-color: #43444a;
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -40,7 +51,7 @@ nav {
 }
 
 nav ol {
-    margin-top: 2%;
+    padding: 1%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -52,13 +63,12 @@ nav ol {
 
 #nav ol li:hover {
     transform: scale(1.3);
-    border-bottom: 2px #261b50 solid;
 }
 
 #nav ol li a {
-    font-size: 18px;
+    font-size: 25px;
     text-decoration: none;
-    color: #271C50;
+    color: white;
     font-weight: lighter;
 }
 
@@ -72,7 +82,7 @@ nav ol {
 
 #landing h3 {
     font-size: 22px;
-    padding: 1%;
+    padding: 5%;
     font-weight: lighter;
 }
 
@@ -146,10 +156,12 @@ h2 {
     height: 75%;
     width: 90%;
     transition: .3s ease-in-out;
+    filter: grayscale(90%);
 }
 
 .project-img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
+    filter: grayscale(0%);
 }
 
 div {
@@ -167,10 +179,9 @@ div {
 }
 
 #workPage p {
-    font-size: 20px;
+    font-size: 30px;
     margin: 5%;
     font-weight: lighter;
-    font-family: 'Oxygen', sans-serif;
 }
 
 
@@ -178,15 +189,14 @@ div {
 
 h3 {
     font-size: 34px;
-    font-family: 'Oxygen', sans-serif;
     padding: 10px;
     border-bottom: 2px solid #271c50;
+    font-family: 'Abril Fatface', cursive;
 }
 
 #project p {
-    font-size: 20px;
+    font-size: 28px;
     font-weight: lighter;
-    font-family: 'Oxygen', sans-serif;
     margin: 4%;
 }
 
@@ -201,6 +211,11 @@ h3 {
 .project {
     width: 80%;
     height: 40%;
+    filter: grayscale(90%);
+}
+
+.project:hover{
+    filter: grayscale(0%);
 }
 
 #up-key {
@@ -217,20 +232,32 @@ h3 {
 /* contact ******************************************/
 
 #contactPage {
-    background: #cee9e5;
+    background-color: #43444a;
     margin-top: 5%;
     padding-top: 2%;
+    color: white;
     padding-bottom: 1%;
 }
 
 #contactPage h1 {
-    font-size: 25px;
+    font-size: 35px;
+    color: white;
+    font-family: 'Teko', sans-serif;
 }
 
 #contactPage ol {
     display: inline-flex;
-    margin: 1%;
+    margin: 1.5%;
 }
+
+#contactPage ol li{
+    filter: grayscale(90%);
+}
+
+#contactPage ol li:hover{
+    filter: grayscale(0%);
+}
+
 
 #contactPage img {
     width: 45%;
@@ -238,39 +265,23 @@ h3 {
 }
 
 #aboutPage {
-    padding-top: 14%;
+    padding-top: 3.5%;
 }
 
-#landing p {
-    padding-top: 1%;
-    word-spacing: 5px;
-    font-size: 17px;
-    text-align: justify;
-    font-weight: lighter;
-    text-align: initial;
-}
-
-button {
-    background: #cee9e5;
-    font-size: 16px;
-    border-radius: 20px;
-    padding: 12px;
-    margin-bottom: 5%;
-}
-
-button a {
-    color: #271c50;
-    font-weight: lighter;
-}
-
-button:hover {
-    transform: scale(1.2);
-    border-radius: 0px;
-    background-color: #f9d13c;
-}
 
 .copyright p {
     font-size: 14px;
     margin: 1%;
     font-weight: lighter;
+}
+
+/* Resume */
+
+#resume{
+    padding-top: 3.5%;
+}
+
+embed{
+    height: 1050px;
+    width: 1050px;
 }

@@ -4,8 +4,12 @@
         padding: 12px;
     }
     nav ol {
-        display: block;
-        margin: 2%;
+        display: flex;
+        margin-top: 5%;
+    }
+    #nav ol li:hover {
+        transform: none;
+        border-bottom: none;
     }
     #nav ol li a {
         font-size: 15px;
@@ -20,7 +24,6 @@
         width: 12%;
         height: 10%;
         float: left;
-        margin: 2% 5%;
     }
     #landing {
         padding-top: 35%;
@@ -44,7 +47,7 @@
     }
     /*  about page */
     #aboutPage {
-        padding-top: 15%;
+        padding-top: 30%;
     }
     #aboutPage p {
         font-size: 13px;
@@ -74,6 +77,11 @@
         padding: 12px;
         margin: 10%;
     }
+    button:hover {
+        transform: none;
+        border-radius: none;
+        background-color: none;
+    }
     /* project page */
     .project {
         width: 95%;
@@ -81,6 +89,9 @@
     }
     #project {
         padding-top: 25%;
+    }
+    .project-img:hover {
+        transform: none;
     }
     #project p {
         font-size: 18px;
