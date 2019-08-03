@@ -1,20 +1,25 @@
 @media screen and (max-width: 768px) {
     h3 {
-        font-size: 25px;
-        padding: 12px;
+        font-size: 30px;
+        padding: 5px;
     }
+    
+    nav{
+        background-color: #93949e;
+    }
+
     nav ol {
         display: flex;
-        margin-top: 5%;
+        padding: 1%;
     }
     #nav ol li:hover {
         transform: none;
         border-bottom: none;
     }
     #nav ol li a {
-        font-size: 15px;
+        font-size: 18px;
         text-decoration: none;
-        color: #271C50;
+        color: white;
         font-weight: lighter;
     }
     nav a {
@@ -36,18 +41,19 @@
         font-size: 28px;
     }
     #landing h3 {
-        ont-size: 18px;
+        font-size: 18px;
         padding: 4%;
     }
     #landing p {
         margin-top: 4%;
     }
     #workPage {
-        padding-top: 30%;
+        padding-top: 15%;
     }
+ 
     /*  about page */
     #aboutPage {
-        padding-top: 30%;
+        padding-top: 4%;
     }
     #aboutPage p {
         font-size: 13px;
@@ -56,8 +62,8 @@
         margin: 0;
     }
     #my-pic {
-        width: 50%;
-        margin-bottom: 2%;
+        width: 100%;
+        filter: grayscale(0%);
     }
     #wrapper {
         display: inline;
@@ -67,54 +73,63 @@
         font-size: 18px;
         font-weight: lighter;
     }
-    #my-pic {
-        margin: 5% 0;
+   
+    embed{
+        width: 500px;
+        height: 700px;
     }
-    button {
-        background: #bfd7d7;
-        font-size: 16px;
-        border-radius: 20px;
-        padding: 12px;
-        margin: 10%;
-    }
-    button:hover {
-        transform: none;
-        border-radius: none;
-        background-color: none;
-    }
+
     /* project page */
     .project {
-        width: 95%;
-        height: 40%;
+        width: 99%;
+        height: auto;
+        filter: grayscale(0%);
     }
     #project {
-        padding-top: 25%;
+        padding-top: 15%;
     }
+
+    .project-img {
+        height: auto;
+        width: 99%;
+        filter: grayscale(0%);
+    }
+
+    
     .project-img:hover {
         transform: none;
     }
-    #project p {
-        font-size: 18px;
-        font-weight: lighter;
-    }
-    #my-pic {
-        width: 45%;
-    }
+
+
+  #project p {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 4%;
+    font-weight: lighter;
+}
+
+
     div {
         width: 100%;
     }
     #workPage p {
-        font-size: 14px;
-        margin-top: 5px;
-        font-weight: normal;
+        font-size: 20px;
+        font-weight: lighter;
     }
+
     #contactPage {
-        background: #cee9e5;
+        background: #93949e;
         margin-top: 10%;
         padding-top: 2%;
         /* width: 100%; */
         padding-bottom: 1%;
     }
+     
+    #contactPage ol li{
+        filter: grayscale(0%);
+    }
+    
+    
     #contactPage ol {
         display: inline-flex;
         margin: 2%;

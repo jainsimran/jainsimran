@@ -188,16 +188,17 @@ div {
 /* project page ******************************************/
 
 h3 {
-    font-size: 34px;
+    font-size: 42px;
     padding: 10px;
     border-bottom: 2px solid #271c50;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Teko', sans-serif;
 }
 
 #project p {
-    font-size: 28px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
-    margin: 4%;
+    margin: 2% 4%;
 }
 
 #project {
@@ -209,8 +210,8 @@ h3 {
 }
 
 .project {
-    width: 80%;
-    height: 40%;
+    width: 45%;
+    height: 45%;
     filter: grayscale(90%);
 }
 
@@ -220,11 +221,11 @@ h3 {
 
 #up-key {
     float: right;
-    width: 1%;
+    width: 2%;
     padding: 0.5%;
     margin-bottom: 1%;
     margin-right: 3%;
-    border: 2px solid #271c50;
+    border: 2px solid #43444a;
     border-radius: 20px;
 }
 
@@ -260,8 +261,8 @@ h3 {
 
 
 #contactPage img {
-    width: 45%;
-    height: 85%;
+    width: 50%;
+    height: auto;
 }
 
 #aboutPage {
