@@ -10,14 +10,14 @@
 
     nav ol {
         display: flex;
-        padding: 1%;
+        padding: 3%;
     }
     #nav ol li:hover {
         transform: none;
         border-bottom: none;
     }
     #nav ol li a {
-        font-size: 18px;
+        font-size: 20px;
         text-decoration: none;
         color: white;
         font-weight: lighter;
