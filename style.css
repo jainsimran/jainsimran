@@ -212,6 +212,7 @@ h3 {
 .project {
     width: 45%;
     height: 45%;
+    padding: 0.5%;
     filter: grayscale(90%);
 }
 
