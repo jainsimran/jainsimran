@@ -30,22 +30,8 @@
         height: 10%;
         float: left;
     }
-    #landing {
-        padding-top: 35%;
-        margin: 5%;
-    }
     h1 {
         font-size: 24px;
-    }
-    #landing h1 {
-        font-size: 28px;
-    }
-    #landing h3 {
-        font-size: 18px;
-        padding: 4%;
-    }
-    #landing p {
-        margin-top: 4%;
     }
     #workPage {
         padding-top: 15%;

@@ -20,12 +20,6 @@ p{
 
 /* image ******************************************/
 
-.logo-img {
-    width: 4%;
-    float: left;
-    margin-left: 5%;
-}
-
 #my-pic {
     width: 100%;
     margin-bottom: 2%;
@@ -70,65 +64,6 @@ nav ol {
     text-decoration: none;
     color: white;
     font-weight: lighter;
-}
-
-
-/* Landing ******************************************/
-
-#landing {
-    margin: 0 20% 20% 20%;
-    padding-top: 20%;
-}
-
-#landing h3 {
-    font-size: 22px;
-    padding: 5%;
-    font-weight: lighter;
-}
-
-#landing h1 {
-    overflow: hidden;
-    font-size: 35px;
-    border-right: 3px solid #261b50;
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: 1.15px;
-    animation: typing 4s steps(40, end), blink-caret .75s step-end infinite;
-}
-
-@keyframes typing {
-    from {
-        width: 0
-    }
-    to {
-        width: 80%
-    }
-}
-
-@keyframes blink-caret {
-    from,
-    to {
-        border-color: transparent
-    }
-    50% {
-        border-color: #261b50;
-        ;
-    }
-}
-
-h1 {
-    font-size: 40px;
-}
-
-h2 {
-    margin: 2%;
-    font-size: 20px;
-}
-
-.logo {
-    width: 50%;
-    margin-top: 5%;
-    margin-bottom: 2%;
 }
 
 
@@ -205,15 +140,11 @@ h3 {
     padding-top: 10%;
 }
 
-.gif {
-    width: 55%;
-}
-
 .project {
     width: 45%;
     height: 45%;
     padding: 0.5%;
-    filter: grayscale(90%);
+    filter: grayscale(80%);
 }
 
 .project:hover{
